@@ -29,3 +29,5 @@ SELECT SUM(price) FROM car;
 SELECT maker,  SUM(price) FROM car GROUP BY maker;
 
 
+
+
