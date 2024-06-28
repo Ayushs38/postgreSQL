@@ -4,6 +4,7 @@ create table car (
 	model VARCHAR(50) NOT NULL,
 	price NUMERIC(19, 2) NOT NULL
 );
+SELECT * FROM car;
 insert into car (id, maker, model, price) values (1, 'Chrysler', 'Town & Country', 96235);
 insert into car (id, maker, model, price) values (2, 'Volkswagen', 'Passat', 50272);
 insert into car (id, maker, model, price) values (3, 'GMC', '1500 Club Coupe', 13114);

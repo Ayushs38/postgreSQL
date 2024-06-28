@@ -8,6 +8,7 @@ CREATE TABLE person (
     country_of_birth VARCHAR(50) NOT NULL
 );
 
+SELECT * FROM person;
 insert into person (id, first_name, last_name, email, gender, date_of_birth, country_of_birth) values (1, 'Ottilie', 'Humbey', 'ohumbey0@soup.io', 'Female', '25-09-2023', 'Malaysia');
 insert into person (id, first_name, last_name, email, gender, date_of_birth, country_of_birth) values (2, 'Fairfax', 'Kippins', 'fkippins1@macromedia.com', 'Male', '25-12-2023', 'Russia');
 insert into person (id, first_name, last_name, email, gender, date_of_birth, country_of_birth) values (3, 'Marci', 'Jakovijevic', 'mjakovijevic2@google.es', 'Female', '27-09-2023', 'Serbia');
